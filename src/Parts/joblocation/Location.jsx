@@ -43,7 +43,7 @@ const Carousel = () => {
             <h1>Where You Want To Work</h1>
                 <div className="carousel-inner" ref={boxRef} onTransitionEnd={handleScroll}>
                     {cards.map((card, i) => (
-                        <Link to="/jobs" className="card"><div  key={i}>
+                        <Link to="/jobs" key={i} className="card"><div  >
                             <h3>{card.city}</h3>
                             <p>{card.jobCount}</p>
                         </div>

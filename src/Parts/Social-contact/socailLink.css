@@ -1,0 +1,29 @@
+.socail-link{
+    /* border: 1px solid red; */
+    background-color: #EEF1FF;
+    padding-top: 10px;
+}
+.socail-left-box{
+    width: fit-content;
+    display: flex;
+    margin-left: 10%;
+    /* border: 2px solid red; */
+}
+.contact-footer{
+    display: flex;
+}
+.socail-right-box{
+    position: relative;
+    margin-left: 100px;
+}
+.hide-original{
+    position: absolute;
+    top: 50%;
+    left: 70px;
+    height: 69px;
+}
+.socail-links-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

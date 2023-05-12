@@ -1,0 +1,105 @@
+.login-page {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: row;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+    overflow: hidden;
+    /* border: 2px solid red; */
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #f7f7f7;
+  }
+  
+  .left-side h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .left-side p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 70%;
+    text-align: center;
+    color: #666;
+  }
+  
+  .right-side {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+  }
+  .signup-link{
+    color: #009ADC;
+    cursor: pointer;
+  }
+  .account-check{
+    margin-top: 20px;
+
+  }
+  
+  .right-side h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .right-side label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .right-side input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .right-side button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .right-side button:hover {
+    background-color: #0056b3;
+  }
+  .cross-icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+    color: #74D35D;
+  }
+  .cross-icon:hover{
+    font-size: 20px;
+  }

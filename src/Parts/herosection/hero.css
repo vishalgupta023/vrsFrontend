@@ -1,0 +1,44 @@
+.hero{
+    background-color: #F4F9FE;
+    padding: 20px 0px;
+}
+.hero-left-box{
+    /* border: 1px solid red; */
+    width: 60%;
+    padding: 30px 0px;
+}
+.hero-left-box h1{
+    font-size: 45px;
+    width: 80%;
+    line-height: 1.;
+}
+.hero-box{
+    /* border: 2px solid black; */
+    display: flex;
+}
+.hero-login-setion{
+    width: 100%;
+    margin-top: 30px;
+}
+.hero-login-setion button{
+    margin-top: 20px;
+    padding: 20px 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 19px;
+    border-radius:2% 30%;
+    background-color: #74D35D;
+    justify-self: center;
+    color: #fff;
+    align-self: center;
+}
+.hero-right-box{
+    width: 50%;
+}
+.hero-right-box img{
+    width: 100%;
+    height: 100%;
+}
+.hero-img-container{
+    height: 100%;
+}

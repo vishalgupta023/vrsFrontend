@@ -1,0 +1,189 @@
+.login-page {
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    flex-direction: row;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px #ccc;
+    overflow: hidden;
+    /* border: 2px solid red; */
+  }
+  
+  .left-side {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #f7f7f7;
+  }
+  
+  .left-side h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .left-side p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 70%;
+    text-align: center;
+    color: #666;
+  }
+  
+  .right-side {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #fff;
+    padding: 40px;
+  }
+  .signup-link{
+    color: #009ADC;
+    cursor: pointer;
+  }
+  .account-check{
+    margin-top: 20px;
+
+  }
+  
+  .right-side h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .right-side label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .right-side input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .right-side button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .right-side button:hover {
+    background-color: #0056b3;
+  }
+  .cross-icon{
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    transform-origin: center;
+    color: #74D35D;
+  }
+  .cross-icon:hover{
+    font-size: 20px;
+  }
+  .input-box{
+    position: relative;
+  }
+  .input-box span{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: red;
+    font-size: 14px;
+  }
+
+
+  /* OTP box styling */
+        /* chat gpt3-style */
+  .otp-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .otp-form input {
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+   button.verify-btn {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .otp-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .otp-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  /* mystyling  otp-box*/
+
+  .email-otp-verification-hide{
+    border: 1px solid red;
+    background-color: #fff;
+    width: 90%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transform: translate(150%);
+  }
+  .email-otp-verification-show{
+    border: 1px solid red;
+    background-color: #fff;
+    width: 90%;
+    height:80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    transition: all 0.5s ease;
+    transform: translate(0%);
+  }
+  .form-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
